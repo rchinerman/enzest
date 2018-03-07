@@ -1,8 +1,9 @@
 {
-  "name": "instaratio",
+  "name": "enzest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "normalize.css": "^8.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
@@ -10,15 +11,21 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
     "enzyme": "^3.3.0",
-    "jest": "^22.4.2",
-    "node-sass": "^4.7.2",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.18.2",
+    "flow-bin": "^0.66.0",
+    "jest-styled-components": "^5.0.0",
+    "react-test-renderer": "^16.2.0",
     "styled-components": "^3.2.0"
   }
 }
