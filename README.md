@@ -59,7 +59,8 @@ yarn lint
 ### Text Editor
 
 It's easier and more practical to use a text editor with extension support for Flow testing and ESLint.
-[VS Code](https://code.visualstudio.com/)
+
+* [VS Code](https://code.visualstudio.com/)
 
 ## Built With
 
@@ -67,7 +68,7 @@ It's easier and more practical to use a text editor with extension support for F
 
 ## Authors
 
-* **Ryan Hinerman** - *Initial work* - [rchinerman](https://github.com/rchinerman)
+* **Ryan Hinerman** - [rchinerman](https://github.com/rchinerman)
 
 See also the list of [contributors](https://github.com/rchinerman/enzest/contributors) who participated in this project.
 
