@@ -18,13 +18,13 @@ To install the dependencies from package.json:
 yarn install
 ```
 
-To install all third-party library interface definitions assocated with our dependencies for use with Flow, first ensure the [flow-typed] tool is installed.
+To install all third-party library interface definitions assocated with the dependencies listed in package.json for use with Flow, first ensure the [flow-typed](https://github.com/flowtype/flow-typed) tool is installed:
 
 ```
 yarn global add flow-typed
 ```
 
-Then, install the all definitions listed within package.json:
+Then, install all definitions listed within package.json:
 
 ```
 flow-typed install
@@ -34,7 +34,7 @@ flow-typed install
 
 ## Jest/Enzyme
 
-Testing code functionality
+To use Jest and Enzyme to test code functionality:
 
 ```
 yarn test
@@ -42,7 +42,7 @@ yarn test
 
 ## Flow
 
-Testing Flow type errors
+To use Flow to look for type errors:
 
 ```
 yarn run flow
@@ -50,14 +50,10 @@ yarn run flow
 
 ## ESLint
 
-Testing code styling
+To use ESLint to test for code styling issues:
 
 ```
-yarn global add eslint
-```
-then
-```
-eslint lib/**
+yarn lint
 ```
 
 ### Text Editor
