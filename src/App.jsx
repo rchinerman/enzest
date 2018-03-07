@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 
 import logo from './images/logo.svg';
@@ -32,16 +32,25 @@ const AppIntro = styled.p`
   font-size: large;
 `;
 
-const App = (
-  <AppBody>
-    <AppHeader>
-      <AppLogo src={logo} alt="logo" />
-      <AppTitle>Welcome to React</AppTitle>
-    </AppHeader>
-    <AppIntro>
-      To get started, edit <code>src/App.js</code> and save to reload.
-    </AppIntro>
-  </AppBody>
-);
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <AppBody>
+        <AppHeader>
+          <AppLogo src={logo} alt="logo" />
+          <AppTitle>Welcome to React</AppTitle>
+        </AppHeader>
+        <AppIntro>
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </AppIntro>
+      </AppBody>
+    );
+  }
+}
 
 export default App;
