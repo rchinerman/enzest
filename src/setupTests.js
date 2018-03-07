@@ -1,5 +1,5 @@
 /**
- * Code to be included before every test to initialize Enzyme. 
+ * Code to be included before every test to initialize Enzyme.
  */
 
 import Enzyme from 'enzyme';

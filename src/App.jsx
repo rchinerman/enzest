@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './images/logo.svg';
 import styled, { keyframes } from 'styled-components';
+
+import logo from './images/logo.svg';
 
 const AppBody = styled.div`
   text-align: center;
@@ -12,7 +13,7 @@ const AppLogoSpin = keyframes`
 `;
 
 const AppLogo = styled.img`
-  animation: ${ AppLogoSpin } infinite 20s linear;
+  animation: ${AppLogoSpin} infinite 20s linear;
   height: 80px;
 `;
 
@@ -36,7 +37,7 @@ class App extends Component {
     return (
       <AppBody>
         <AppHeader>
-          <AppLogo src={ logo } alt="logo" />
+          <AppLogo src={logo} alt="logo" />
           <AppTitle>Welcome to React</AppTitle>
         </AppHeader>
         <AppIntro>
