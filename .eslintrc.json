@@ -12,5 +12,6 @@
         "serviceworker": true,
         "es6": true,
         "commonjs": true
-    }
+    },
+    "parser":"babel-eslint"
 }
